@@ -4,6 +4,8 @@ A simple project to visualize the orientation of an LSM9DS1 IMU in 3D using Pyth
 
 The Arduino reads the IMU data, uses the Madgwick filter to get roll, pitch, and yaw, and streams it over serial. The Python script reads that serial data and rotates a 3D box to match.
 
+![blevis(1)](https://github.com/user-attachments/assets/500df0a7-fd9d-44a0-bdc1-040a99f41e34)
+
 ## How it Works
 
 There are two main parts:
